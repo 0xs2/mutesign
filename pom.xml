@@ -71,14 +71,6 @@
             <scope>system</scope>
             <systemPath>${basedir}/libs/Essentials-2.5.8.jar</systemPath>
         </dependency>
-
-
-
-        <dependency>
-            <groupId>org.json</groupId>
-            <artifactId>json</artifactId>
-            <version>20231013</version>
-        </dependency>
     </dependencies>
 
 
