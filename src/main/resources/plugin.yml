@@ -1,0 +1,19 @@
+name: MuteSign
+description: Basic plugin to disable muted players from placing signs
+main: dev.oxs.mutesign.MuteSign
+version: 1.0.0
+authors:
+  - oxs
+depend: [
+  "Essentials"
+]
+commands:
+  mutesign:
+    description: Shows plugin information
+    usage: /mutesign
+    aliases: ["ms"]
+
+permissions:
+  mutesign.mutesign:
+    description: Show the MuteSign menu
+    default: op
